@@ -1,6 +1,5 @@
 .hero{
     width: 80%;
-    margin:;
 }
 .navbar{
     margin: 30px auto;
@@ -10,9 +9,9 @@
 }
 ul{
     flex: 1;
-    width: 463px;
+    width: 398px;
     height: 36px;
-    left: 750px;
+    left: 550px;
     top: 50px;
     position: absolute;
     text-align: right;
@@ -35,9 +34,7 @@ ul li a::after{
     background:rgba(17, 170, 81, 0.486) ;
     position: absolute;
     left: 1%;
-    transform: translateX(-50%)
-    top: -65px;
-    transition: 0.5s;
+    transform: translateX(-5%)
 }
 ul li a:hover::after{
     width: 100%;
@@ -73,19 +70,16 @@ ul li a:hover::after{
 }
 body{
     background: whitesmoke;
-    margin-top: 76px;
+   
     margin-bottom: 50px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left:250px;
 }
 .logos{
-    text-align: right;
     display: flex;
     gap: 60px;
     border-top:solid 1px;
     border-bottom:solid 1px;
-    width: 1110px;
-    width: 1000px;
+    width: 980px;
 }
 .part-1{
     border: solid 1px white;
@@ -118,7 +112,12 @@ body{
     width: 155px;
     height: 44px;   
 }
-
+footer{
+    background: black ;
+    color: white;
+    text-align: center;
+    width: 980px;
+}
     
 
 
