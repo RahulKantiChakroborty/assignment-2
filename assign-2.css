@@ -1,0 +1,124 @@
+.hero{
+    width: 80%;
+    margin:;
+}
+.navbar{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+
+}
+ul{
+    flex: 1;
+    width: 463px;
+    height: 36px;
+    left: 750px;
+    top: 50px;
+    position: absolute;
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 3px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    position: relative;
+}
+ul li a::after{
+    content: "";
+    width: 0;
+    height: 5px;
+    background:rgba(17, 170, 81, 0.486) ;
+    position: absolute;
+    left: 1%;
+    transform: translateX(-50%)
+    top: -65px;
+    transition: 0.5s;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+.section-a{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+
+}
+.heading-1{
+    font-size: 52px;
+}
+.heading-4{
+    font-size: 24px;
+}
+.para-a{
+    font-size: 16px;
+}
+.anchor-a{
+    font-size: 16px;
+    text-decoration: none;
+    border: solid #E02C6D;
+    background-color:#E02C6D;
+    color: #FFFFFF; 
+    border-radius: 41px;
+}
+.Camara{
+    background-image: url(images/Circle\ design.svg);
+    width: 475px;
+    height: 475px;
+}
+body{
+    background: whitesmoke;
+    margin-top: 76px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.logos{
+    text-align: right;
+    display: flex;
+    gap: 60px;
+    border-top:solid 1px;
+    border-bottom:solid 1px;
+    width: 1110px;
+    width: 1000px;
+}
+.part-1{
+    border: solid 1px white;
+    border-radius: 5px;
+    align-items: center;
+    background-color: white;
+    gap: 60px;
+    width: 300px;
+    height: 460px;
+}
+.see-more{
+    margin-right: auto;
+    color: #E02C6DDE;
+    font-weight:bold;
+    margin-left: 440px;
+}
+.featured{
+    font-size: 38px;
+}
+.pharagraph{
+    font-size: 16px;
+    font-weight: bold;
+}
+.join{
+    text-decoration:none;
+    font-weight: bold;
+    border: 10px 40px;
+    background-color: #E02C6D;
+    color: white;
+    width: 155px;
+    height: 44px;   
+}
+
+    
+
+
